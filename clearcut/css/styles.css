@@ -1,0 +1,182 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.min.css");
+*{
+	margin: 0px auto;
+	padding: 0;
+}
+body{
+	width: 1000px;
+	margin-left: 130px;
+	background-color: #212121;
+}
+#website{
+	background-color: white;	
+}
+.container{
+	max-width: 1000px;
+}
+ul{
+	padding:0px;
+	list-style-type: none;
+}
+a:hover, a:active{
+	text-decoration: none;
+}
+header{
+	height: 102px;
+	background: url(../images/headerBackground.png);
+}
+#logo{
+	margin-top:50px; 
+}
+#top-nav{
+
+	margin-left: 0px;
+	/*padding-top: 50px;*/
+	float: right;
+	margin-right: 150px;
+	height: 102px;
+}
+
+#top-nav li{
+	float: left;
+	/*margin-left:10px; */
+	height: 102px;
+	padding:60px 5px 0px 5px;
+
+}
+#top-nav li a{
+	color:#a9a9a9;
+	font-family: Courier;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+#top-nav li.active, #top-nav li:hover{
+	cursor: pointer;
+	background: #a8c254;
+}
+
+#banner-wrapper{
+	height: 500px;
+	margin-top: 30px;
+}
+#quote{
+	margin-left: 150px;
+
+}
+h3{
+	font-size: 18px;
+	color: #9c9c9c
+}
+#main li{
+	padding-top:0px;
+}
+#aboutUs{
+	border: 1px solid #e5e5e5;
+	padding: 2px;
+}
+.left-side p{
+	font-size: 13px;
+	font-family: Courier;
+	margin-top: 15px;
+	color:#9c9c9c;
+	width: 270px;
+}
+.link{
+	color:#c6d28d;
+	font-size: 13px;
+	font-family:  Courier;
+	float: right;
+}
+h5{
+	font-weight: bold;
+	color: #898989;
+}
+.content-service p{
+	font-size: 13px;
+	font-family:  Courier;
+	color:#9c9c9c;
+}
+.right-side #p1{
+	font-weight: bold;
+	color: #898989;
+}
+.right-side #p2{
+	font-size: 13px;
+	font-family:  Courier;
+	color:#9c9c9c;
+}
+.right-side #p1 #ceo{
+	font-weight: normal;
+}
+footer{
+	margin-top: 20px;
+	padding-top:25px;
+	background-color: #313131;
+	color:#919191;
+}
+footer h3{
+	font-size: 15px;
+	color: white;
+	border-bottom: 2px solid #363636;
+	padding-bottom: 20px;
+}
+footer .address{
+	color:#919191;
+}
+.social li{
+	padding: 15px 0px 10px 0px;
+	border-bottom: 2px solid #363636;
+}
+footer a{
+	color:#828f4d;
+}
+footer .blog h4{
+	font-size: 15px;
+	font-weight: bold;
+}
+footer .blog span{
+	font-size: 11px;
+	font-family:  Courier;
+}
+footer .blog p{
+	font-size: 12px;
+
+}
+footer .blog a{
+	float: right;
+}
+footer input,textarea{
+	background-color:#383838;
+	border-radius: 5px;
+	margin: 5px 0px; 
+	border:none;
+}
+footer input{
+	height: 30px;
+}
+footer textarea{
+	height: 80px;
+}
+footer input#submit{
+	background-color:#a7c353;
+	color:black;
+	font-weight: bold;
+}
+footer .container{
+	border-bottom: 2px solid #363636;
+	padding-bottom: 20px;
+}
+footer #copyright{
+	height: 60px; 	
+}
+footer #copyright span{
+	line-height: 60px;
+}
+footer #copyright span:first-child{
+	margin-left: 15px;
+}
+footer #copyright span:last-child{
+	float: right;
+	margin-right: 10px;
+}
